@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+
+body {
+  background: linear-gradient(120deg, #562299 0%, #a21caf 100%);
+  min-height: 100vh;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  letter-spacing: 0.01em;
+}
+
+header {
+  background: linear-gradient(90deg, #2d282e 0%, #7c3aed 100%);
+}
+
+button {
+  background: linear-gradient(90deg, #87518b 0%, #7c3aed 100%);
+}
+button:hover {
+  background: linear-gradient(90deg, #c026d3 0%, #a21caf 100%);
+}
+
+li {
+  background: rgba(133, 97, 196, 0.18);
+}
+li:hover {
+  background: rgba(162, 28, 175, 0.22);
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #2e026d;
+}
+::-webkit-scrollbar-thumb {
+  background: #a21caf;
+  border-radius: 4px;
+}
