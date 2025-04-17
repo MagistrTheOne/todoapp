@@ -1,12 +1,30 @@
-# React + Vite
+# Todo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Простое приложение для списка задач (Todo List), созданное с использованием **React.js**, **Vite** и **Tailwind CSS 4.0**.
 
-Currently, two official plugins are available:
+## Описание
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Это базовое приложение для создания списка задач, в котором можно:
+- Добавлять задачи
+- Помечать задачи как завершенные
+- Удалять задачи
 
-## Expanding the ESLint configuration
+Приложение использует локальное хранилище для сохранения состояния задач. Стек технологий выбран с учетом удобства и быстроты разработки.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Стек технологий
+
+- **React.js** — библиотека для создания интерфейсов.
+- **Vite** — современный сборщик с поддержкой горячей перезагрузки.
+- **Tailwind CSS 4.0** — utility-first CSS фреймворк для быстрой стилизации.
+- **LocalStorage** (или иной способ хранения, если нужно) — для сохранения задач в браузере.
+
+## Установка
+
+1. Клонируй репозиторий:
+
+   ```bash
+   git clone https://github.com/MagistrTheOne/todoapp.git
+   cd todo-app
+   npm install
+   npm run dev
+   
